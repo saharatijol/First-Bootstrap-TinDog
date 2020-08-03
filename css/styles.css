@@ -63,7 +63,7 @@ h1 {
   transform: rotate(25deg);
 }
 
-/*Features*/
+/*Features Section >>> MY WAY corrected*/
 .features p {
   padding: 0 3rem;
   color: #8F8F8F;
@@ -71,8 +71,7 @@ h1 {
 
 .features i {
   color: #EF8172;
-  font-size: 48px;
-  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 .features i:hover {
@@ -80,8 +79,7 @@ h1 {
 }
 
 .feature-row {
-  margin: 2.5rem 3rem;
-  padding: 2rem;
+  padding: 7% 15%; /*This helps have the div box centered*/
   text-align: center;
 }
 
@@ -90,3 +88,31 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+/*Features Section---- Angela's Way*/
+/* #features {
+  padding: 7% 15%;
+}
+
+.features {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-heading {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+.fas {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #FF4C68;
+} */
