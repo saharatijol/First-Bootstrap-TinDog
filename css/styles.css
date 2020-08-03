@@ -1,27 +1,64 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 #title {
   background-color: #FF4C68;
+  color: white;
 }
 
 h1 {
-  color: white;
   font-family: 'Montserrat', sans-serif;
   /* font-family: 'Ubuntu', sans-serif; */
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
-  margin-top: 1.5em;
+  /* margin-top: 1.5em; */
+  font-weight: 900;
 }
 
 .container-fluid {
   padding: 3% 15%;
 }
 
-button {
+/*Download Buttons: Below is Yu's recommendation*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* button {
   margin: 0.5em;
   margin-left: 0;
-}
+} This is what I did and its the same effect with Yu */
 
-.col-lg-6 img {
+/* .col-lg-6 img {
   transform:rotate(20deg);
   position: relative;
   top: 5.5em;
+} */
+
+
+/**************** Navigation Bar ***************/
+.navbar {
+  padding: 0 0 4.5rem; /*i tried margin-bottom which also works, but this is Yu's recommendation.. */
+  /*This is to align the navbar brand to the right along with the Title h1 text below it. */
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Title Image */
+.title-image {
+  width: 60%; /*This makes the image smaller*/
+  transform: rotate(25deg);
 }
