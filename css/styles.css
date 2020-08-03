@@ -62,3 +62,31 @@ h1 {
   width: 60%; /*This makes the image smaller*/
   transform: rotate(25deg);
 }
+
+/*Features*/
+.features p {
+  padding: 0 3rem;
+  color: #8F8F8F;
+}
+
+.features i {
+  color: #EF8172;
+  font-size: 48px;
+  padding: 1rem;
+}
+
+.features i:hover {
+  color: #FF4C68;
+}
+
+.feature-row {
+  margin: 2.5rem 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.feature-heading {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
