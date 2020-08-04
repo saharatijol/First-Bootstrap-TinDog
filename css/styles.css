@@ -24,7 +24,7 @@ h2 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%; /*Added bottom padding for fine-tune*/
 }
 
 /*Download Buttons: Below is Yu's recommendation*/
@@ -66,12 +66,20 @@ h2 {
 
 /* Title Image */
 .title-image {
-  width: 60%; /*This makes the image smaller*/
+  width: 45%; /*This makes the image smaller*/
   transform: rotate(25deg);
+  /*z-index: -1;*/ /* We set -1 to make the image go behind the stacking order */
+  position: absolute;
+  right: 30%;
 }
+/*NOTE By default, z-index is 0 for all elements*/
 
 /*Features Section >>> MY WAY corrected*/
-
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
 
 .features p {
   padding: 0 3rem;
