@@ -173,6 +173,41 @@ p {
   padding: 3% 2%;
 }
 
+/* Call to Action */
+
+#cta {
+  background-color: #FF4C68;
+  text-align: center;
+  padding: 100px;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+  line-height: 1.5;
+  padding: 2% 10%;
+}
+
+/*Footer Section*/
+
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 8% 16%;
+}
+
+#footer i{
+  padding: 0.5rem;
+}
+
+.footer-p {
+  color: #8F8F8F;
+  margin-top: 2em;
+}
+
+
 @media (max-width: 897px) {
   #title {
     text-align: center;
