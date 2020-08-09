@@ -172,3 +172,9 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+
+@media (max-width: 897px) {
+  .title-image {
+    position: static;
+  }
+}
