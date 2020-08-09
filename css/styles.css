@@ -176,5 +176,6 @@ p {
 @media (max-width: 897px) {
   .title-image {
     position: static;
+    transform: rotate(0);
   }
 }
