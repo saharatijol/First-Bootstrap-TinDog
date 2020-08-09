@@ -1,15 +1,17 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
 }
 
 #title {
-  background-color: #FF4C68;
-  color: white;
+  text-align: left;
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  /* font-family: 'Ubuntu', sans-serif; */
   font-size: 3.5rem;
   line-height: 1.5;
   /* margin-top: 1.5em; */
@@ -17,7 +19,6 @@ h1 {
 }
 
 h2 {
-  font-family: "Montserrat";
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
@@ -25,6 +26,16 @@ h2 {
 
 .container-fluid {
   padding: 3% 15% 7%; /*Added bottom padding for fine-tune*/
+}
+
+/*Sections*/
+.colored-section {
+  background-color: #FF4C68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
 }
 
 /*Download Buttons: Below is Yu's recommendation*/
@@ -97,7 +108,6 @@ h2 {
 
 .feature-row {
   padding: 7% 15%; /*This helps have the div box centered*/
-  text-align: center;
 }
 
 .feature-heading {
@@ -106,39 +116,10 @@ h2 {
   font-size: 1.5rem;
 }
 
-/*Features Section---- Angela's Way*/
-/* #features {
-  padding: 7% 15%;
-}
-
-.features {
-  text-align: center;
-  padding: 5%;
-}
-
-.feature-heading {
-  font-family: "Montserrat";
-  font-weight: bold;
-}
-
-p {
-  color: #8F8F8F;
-}
-
-.fas {
-  color: #EF8172;
-  margin-bottom: 1rem;
-}
-
-.fas:hover {
-  color: #FF4C68;
-} */
 
 /* Testimonial Section */
 #testimonials {
-  text-align: center;
   background-color: #EF8172;
-  color: white;
 }
 
 .testimonial-img {
@@ -154,7 +135,6 @@ p {
 
 #press {
   background-color: #EF8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -166,7 +146,6 @@ p {
 /* Pricing Section */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
@@ -176,8 +155,6 @@ p {
 /* Call to Action */
 
 #cta {
-  background-color: #FF4C68;
-  text-align: center;
   padding: 100px;
 }
 
@@ -194,7 +171,6 @@ p {
 
 #footer {
   background-color: white;
-  text-align: center;
   padding: 8% 16%;
 }
 
